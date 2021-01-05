@@ -5,11 +5,17 @@
     "require": {
         "php": ">=7.0"
     },
+    "homepage": "https://github.com/yexk/thirdpay-sdk",
     "license": "MIT",
     "authors": [
         {
             "name": "Yexk",
             "email": "yexk@yexk.cn"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "YeThird\\": "src/"
+        }
+    },
 }
