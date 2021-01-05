@@ -1,20 +1,3 @@
-# thirdpay-sdk
-
-1. 引用包
-
-```
-composer require yexk/thirdpay-sdk
-```
-
-2. 加载文件
-
-```
-require 'path/to/src/autoload.php';
-```
-
-3. 初始化使用
-
-```PHP
 <?php
 require '../src/autoload.php';
 
@@ -40,5 +23,3 @@ $result = $Sdk->c2b([
 
 // echo $result;
 var_dump($result);
-
-```
